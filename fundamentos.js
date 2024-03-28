@@ -55,3 +55,55 @@ let obj = [
 ]
 
 console.table(obj)
+
+// métodos de string
+// split
+//toLowerCase (deixar tudo minusculo)
+//toUpperCase (deixar maiusculo)
+//lenght (fala  a quantidade, caracteristicas)
+//indexOf retorna o indice do valor mencionador (mostra a posiçao)
+//slice busca uma palavra atraves do indice que você selecionou (inicio) ao (fim)
+ const fullname = 'WilliamxSilvaxPascinixRibeiroxjesus'
+
+ console.log(fullname, 'nome completo')
+
+ const stringtoarray = fullname.split('x')
+
+ console.table(stringtoarray)
+
+ // teste toLowerCase
+
+ let teste ='TESTE CAIXA'
+
+ console.log(teste.toLowerCase())
+
+// teste toUpperCase
+
+let teste2 = 'teste caixa 2'
+
+console.log(teste2.toUpperCase())
+
+//teste lenght
+
+let teste3 = 'william'
+
+console.log(teste3.length)
+
+//teste indexOF
+
+console.log(fullname.indexOf ('Pascini'))
+
+//teste slice
+
+console.log(fullname.slice(14, 21))
+
+// métodos de array
+
+const list = ['a', 'b', 'c', 'd', '']
+
+
+
+
+ 
+
+ 
