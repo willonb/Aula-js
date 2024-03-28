@@ -98,8 +98,30 @@ console.log(fullname.indexOf ('Pascini'))
 console.log(fullname.slice(14, 21))
 
 // métodos de array
+//push
 
-const list = ['a', 'b', 'c', 'd', '']
+const list = ['a', 'b', 'c', 'd', 'e']
+
+console.log(list.length, 'array')
+console.log(list[4])
+
+list [5] = 'f'
+console.log(list)
+
+//push chama mais pro final
+
+list.push('g')
+console.log(list, 'push')
+
+//
+
+console.log(list[list.length -1], 'aqui')
+
+//pop tirar o ultimo
+
+list.pop()
+console.log(list)
+
 
 
 
