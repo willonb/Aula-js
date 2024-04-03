@@ -122,10 +122,14 @@ console.log(list[list.length -1], 'aqui')
 list.pop()
 console.log(list)
 
+// list.shift - remover o primeiro momento 
+
+list.shift
+console.log(list, 'shift')
+
+// add um elemento
+
+list.unshift('a')
+console.log(list, 'unshift')
 
 
-
-
- 
-
- 
