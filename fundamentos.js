@@ -132,4 +132,74 @@ console.log(list, 'shift')
 list.unshift('a')
 console.log(list, 'unshift')
 
+// start do slice + igual valor do legnth anterior
+
+console.log(list.slice(1, 3))
+
+// objetos
+
+const product = {
+  name: 'camisa',
+  price: 49.99,
+  instock: true,
+  sizes: ['P', 'M', 'G']
+}
+
+console.log(product.name)
+console.log(product.price)
+console.log(product.instock)
+console.log(product.sizes)
+
+product.color = 'blue'
+console.log(product)
+
+//destructuring = A sintaxe de atribuição de desestruturação é uma expressão JavaScript que permite descompactar valores de arrays, ou propriedades de objetos, em variáveis ​​distintas.
+
+ 
+const {price, instock } = product
+
+console.log(price)
+
+// JSON JSON é um formato para armazenar e transportar dados. JSON é frequentemente usado quando os dados são enviados de um servidor para uma página da web.
+
+const game = {
+  name: 'call of duty',
+  year: '2024',
+  age: '18'
+}
+
+const jsonpt = JSON.stringify(game)
+const jsonreset = JSON.parse(jsonpt)
+
+
+console.log(jsonpt)
+console.log(jsonreset)
+
+// data
+
+const data = new Date()
+console.log(data)
+
+// operadores
+
+const a = 10
+const b = 15
+
+const soma = a + b 
+const subt = a - b 
+const div = a / b
+const mult = a * b
+const por = a % b
+
+console.log(soma, subt, div, mult, por, 'ari')
+
+// incremento e decremento 
+
+if ( soma > 10){ 
+console.log('aprovado')
+} else {
+  console.log('reprovado')
+}
+
+soma == 10 ? console.log ('aprovado') : console.log('reprovado')
 
